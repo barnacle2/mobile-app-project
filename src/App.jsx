@@ -3,6 +3,9 @@ import TodoList from "./components/TodoList";
 
 function App() {
   const [count, setCount] = useState(0);
+  
+  // Name heading
+  const name = "Ren Laureanne G. Perandos";
 
   // Calculator State
   const [numbers, setNumbers] = useState(['', '']); // Start with two empty inputs
@@ -138,6 +141,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1>{name}</h1>
       <div className="counter-section">
         <h2>Click Counter:</h2>
         <div className="counter">
